@@ -1,0 +1,13 @@
+.todoCounter{
+    text-align: center;
+}
+.todoCounter div{
+    font-size: 4rem;
+    font-family: 'Shizuru', cursive;
+}
+.todoCounter p {
+    font-size: 1.5rem;
+    margin: 0 0 2rem;
+    font-weight: 600;
+    font-family: cursive;
+}

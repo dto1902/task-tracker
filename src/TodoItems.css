@@ -1,0 +1,29 @@
+.TodoItems {
+    /* font-size: 24px; */
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    margin: 12px;
+    border-radius: 10px;
+    padding: 0 20px;
+    border: 1px solid #9f9f9f;
+}
+.TodoItems p {
+    justify-self: left;
+    margin: 10px 20px 10px 20px;
+    text-align: left;
+}
+.TodoItem-p-complete {
+    text-decoration: line-through;
+}
+.TodoItems-icon-active {
+    color: #1cff00;
+}
+.TodoItems-delete:hover {
+    color: #ff00009e;
+}
+.icons:hover {
+    cursor: pointer;
+}
