@@ -7,7 +7,7 @@ function TodoItems(props) {
     return (
         <li className="TodoItems">
             <span 
-                className={`icons TodoItems-icon ${props.completed && 'TodoItems-icon-active'}`}
+                className={`icons TodoItems-icon ${props.completed ? 'TodoItems-icon-active' : ""}`}
                 onClick={props.onComplete}
             >
                 <GiCheckMark />

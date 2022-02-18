@@ -1,9 +1,9 @@
 import './CreateToDoButton.css'
 // import{ RiAddCircleFill } from 'react-icons/ri'
 
-function CreateToDoButton() {
+function CreateToDoButton(props) {
     const onClick = () => {
-        console.log('hello');
+        props.setOpenModal(prevState => !prevState);
     }
     return (
         <button 

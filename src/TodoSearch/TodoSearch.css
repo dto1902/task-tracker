@@ -16,13 +16,14 @@
     border-radius: 5px;
 }
 .TodoSearch-icon {
-    position: absolute;
-    right: 15px;
-    /* top: 0; */
-    font-size: 25px;
-    /* color: #4b00ff; */
-    /* height: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        position: absolute;
+        right: 15px;
+        /* top: 0; */
+        font-size: 25px;
+        /* color: #4b00ff; */
+        /* height: 100%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
+        

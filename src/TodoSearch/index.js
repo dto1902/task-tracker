@@ -1,19 +1,21 @@
-import React, { useState } from "react";
+import { useContext } from "react";
+import { TodoContext } from '../TodoContext'
 import './TodoSearch.css';
 import { ImSearch } from 'react-icons/im'
 
-function ToDoSearch(props) {
+function ToDoSearch() {
     
+    const { searchValue, setSearchValue } = useContext(TodoContext);
+
     const changeValue = (event) => {
-        props.setSearchValue(event.target.value)
+        setSearchValue(event.target.value)
     };
-    console.log(props.searchValue);
     return (
         <div className="TodoSearch">
             <input 
                 placeholder="Search tasks"
                 onChange={changeValue}
-                value={props.searchValue}
+                value={searchValue}
             />
             <div className="TodoSearch-icon">
                 <ImSearch />
