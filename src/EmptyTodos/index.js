@@ -6,7 +6,7 @@ function EmptyTodos() {
     return (
         <div className='LoadingTodo-container'>
             <span className='LoadingTodo-completeIcon'><GiCheckMark /></span>
-            <p className='LoadingTodo-text'>Create your first task</p>
+            <p className='LoadingTodo-text'>Create your first task!</p>
             <span className='LoadingTodo-deleteIcon'><MdDelete /></span>
         </div>
         )
