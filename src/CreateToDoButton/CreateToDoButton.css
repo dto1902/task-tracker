@@ -23,7 +23,7 @@
     /* -webkit-align-items: flex-start; */
 }
 .CreateToDoButton:hover {
-    transform: rotate(0);
+    transform: rotate(20);
     transform: rotate(360deg);
   }
 button {
