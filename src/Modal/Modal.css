@@ -29,7 +29,7 @@
   }
   .container-modal textarea {
     width: 80%;
-    height: -webkit-fill-available;
+    height: auto;
     padding: 4%;
     border-radius: 5px;
   }

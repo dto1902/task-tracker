@@ -18,8 +18,15 @@
     z-index: 1;
     transform: rotate(0);
     transition: .3s ease;
+    -webkit-appearance: none !important;
+    -webkit-border-radius: 50%;
+    /* -webkit-align-items: flex-start; */
 }
 .CreateToDoButton:hover {
-    transform: rotate(20);
-    transform: rotate(270deg);
+    transform: rotate(0);
+    transform: rotate(360deg);
   }
+button {
+    padding: 0;
+    justify-content: center;
+}
